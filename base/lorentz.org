@@ -1,0 +1,18 @@
+#+TITLE: Lorentz's attractor
+
+
+[[../static/lorentz.gif]]
+
+* What is Lorentz's attractor?
+To answer this question we must first define what an attractor
+is. Matematically, an attractor is a region in space A so that:
+\begin{equation}
+\exists\ V : A \subset V\ \text{and}\ \forall\ x_{0} \in V \lim_{x\to\infty}
+ \varphi(x_{0}, t) = A
+\end{equation}
+
+* What does it means?
+
+* How is it related to caos? (And what caos is?)
+
+* Back to basics

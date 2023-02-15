@@ -1,0 +1,9 @@
+Welcome to kit carson's garage.
+
+* Who's kit carson to me?
+
+* Where are you?
+
+* Projects
+
+** [[file:lorentz.org][Lorentz's attractor]]
