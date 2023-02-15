@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-02-15 Wed 22:34 -->
+<!-- 2023-02-15 Wed 23:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Lorentz's attractor</title>
+<title>Lorenz's attractor</title>
 <meta name="generator" content="Org Mode" />
 <style>
   #content { max-width: 60em; margin: auto; }
@@ -227,30 +227,59 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Lorentz's attractor</h1>
+<h1 class="title">Lorenz's attractor</h1>
 
-<div id="org62759a0" class="figure">
+<div id="org5704313" class="figure">
 <p><img src="../static/lorentz.gif" alt="lorentz.gif" />
 </p>
 </div>
 
-<div id="outline-container-org13066a3" class="outline-2">
-<h2 id="org13066a3"><span class="section-number-2">1.</span> What is Lorentz's attractor?</h2>
+<div id="outline-container-org27532c4" class="outline-2">
+<h2 id="org27532c4"><span class="section-number-2">1.</span> What is Lorenz's attractor?</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 To answer this question we must first define what an attractor
 is. Matematically, an attractor is a region in space A so that:
 </p>
+
 \begin{equation}
-\exists\ V : A \subset V\ \text{and}\ \forall\ x_{0} \in V \lim_{x\to\infty}
- \varphi(x_{0}, t) = A
+\exists\ V : A \subset V\ \text{and}\ \forall\ \pmb{x_{0}} \in V \lim_{\pmb{x}\to\infty}
+ \varphi(\pmb{x_{0}}, t) = A
 \end{equation}
+
+<p>
+That is to say: if i start in any point int the ragion V of the space i'll
+inevitably finish (will be attracted) sooner or later in the region A.
+Wait. Who starts where? And why is it being attracted to A?
+Well, while a system of equations can be a purely mathematical construct it
+often represents a model of some physical, economical or social dynamics.
+Edward Lorenz was a mathematician who studied how the weather evolves his state
+and extrapolated this system of equations:
+</p>
+
+\begin{equation}
+\begin{cases}
+\dot{x} = \sigma(y-x)\\
+\dot{y} = \rho x -xz -y\\
+\dot{z} = xy - \beta z
+\end{cases}
+\end{equation}
+
+<p>
+where \[ \dot{x}, \dot{y}, \dot{z}\ \text{are the time derivatives of}\ x, y, z\]
+</p>
 </div>
 </div>
 
 <div id="outline-container-org870cd25" class="outline-2">
 <h2 id="org870cd25"><span class="section-number-2">2.</span> What does it means?</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+<a href="https://journals.sagepub.com/doi/10.1177/0309133315623099">Lorenz's paper</a>
+</p>
 </div>
+</div>
+
 
 <div id="outline-container-org968c31e" class="outline-2">
 <h2 id="org968c31e"><span class="section-number-2">3.</span> How is it related to caos? (And what caos is?)</h2>
@@ -261,7 +290,7 @@ is. Matematically, an attractor is a region in space A so that:
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2023-02-15 Wed 22:34</p>
+<p class="date">Created: 2023-02-15 Wed 23:04</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

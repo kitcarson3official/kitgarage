@@ -12,4 +12,4 @@ and then i forget about.
 
 * Projects
 
-** [[file:lorentz.org][Lorentz's attractor]]
+** [[file:lorentz.org][Lorenz's attractor]]
