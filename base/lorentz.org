@@ -1,6 +1,5 @@
 #+TITLE: Lorentz's attractor
 
-
 [[../static/lorentz.gif]]
 
 * What is Lorentz's attractor?

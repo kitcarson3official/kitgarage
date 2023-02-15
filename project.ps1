@@ -9,13 +9,15 @@ function p_run {
 
 function p_help {
     Write-Output @"
+
 USAGE:
 ./project.ps1 COMMAND [ARGS]
 
 Available COMMANDs:
-build:         build the site
-run:           build and open the site
-help:          print this help
+build         build the site
+run           build and open the site
+help          print this help
+
 "@
 }
 
